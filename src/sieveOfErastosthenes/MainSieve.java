@@ -11,6 +11,7 @@ public class MainSieve {
 		System.out.println("Welcome to the sieve. Please enter an integer, and I will show you all the prime numbers less than or equal to it:");
 		int maxInt = scanner.nextInt();
 		System.out.println(isPrime(maxInt).toString());
+		System.out.println("There you go!");
 	}
 
 	public static ArrayList<Integer> isPrime(int number) {

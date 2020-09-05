@@ -4,7 +4,13 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'echo "Hello, world"'
+                sh 'echo "Building..."'
+            }
+        }
+        stage('Test') {
+            steps {
+                sh 'make check || true'
+                junit '**/target/*.xml'
             }
         }
     }

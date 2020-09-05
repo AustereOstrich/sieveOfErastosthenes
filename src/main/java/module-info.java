@@ -1,2 +1,3 @@
 module sieveOfErastosthenes {
+    requires junit;
 }

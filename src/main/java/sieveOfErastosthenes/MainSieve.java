@@ -29,7 +29,5 @@ public class MainSieve {
 			}
 		}
 		return primeNumbers;
-
 	}
-
 }

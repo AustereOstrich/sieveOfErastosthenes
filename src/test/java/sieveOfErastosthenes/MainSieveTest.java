@@ -1,7 +1,6 @@
 package sieveOfErastosthenes;
 
 import org.junit.Test;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -31,6 +30,6 @@ class MainSieveTest {
         MainSieve mainSieve = new MainSieve();
         int maxInt = 10;
         ArrayList<Integer> expectedNumbers = new ArrayList<Integer>(Arrays.asList(1,2,3,5,7));
-        assertEquals(mainSieve.isPrime(maxInt), expectedNumbers);
+        assertEquals(MainSieve.isPrime(maxInt), expectedNumbers);
     }
 }

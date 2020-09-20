@@ -7,10 +7,5 @@ pipeline {
                 sh 'echo "Building..."'
             }
         }
-        stage('Test') {
-            steps {
-                sh 'mvn test'
-            }
-        }
     }
 }

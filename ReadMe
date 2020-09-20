@@ -1,0 +1,10 @@
+For Docker:
+
+Building the container:
+
+docker build -t eg_sshd .
+(Add --no-cache after 'build' to do a full rebuild)
+
+Running the container:
+
+docker run -d -P --name ErastosthenesSSH eg_sshd
